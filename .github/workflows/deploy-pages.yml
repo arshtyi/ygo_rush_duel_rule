@@ -18,7 +18,7 @@ jobs:
         uses: fontist/setup-fontist@v2
 
       - name: Install fonts
-        run: fontist install "IBM Plex Serif" "Noto Serif CJK SC" "IBM Plex Mono" --newest -a -h
+        run: fontist install "IBM Plex Serif" "Noto Serif CJK SC" "Noto Sans CJK SC" --newest -a -h
 
       - name: Set up Typst
         uses: typst-community/setup-typst@v5
